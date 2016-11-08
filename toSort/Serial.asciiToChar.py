@@ -10,7 +10,7 @@ def input():
 #have python listening to serial
 serial.addListener("publishByte", python.name, "input") 
 #connect to a serial port COM4 57600 bitrate 8 data bits 1 stop bit 0 parity
-serial.connect("COM9", 57600, 8, 1, 0)
+serial.connect("COM9", 9600, 8, 1, 0)
 #sometimes its important to wait a little for hardware to get ready
 sleep(1)
  
